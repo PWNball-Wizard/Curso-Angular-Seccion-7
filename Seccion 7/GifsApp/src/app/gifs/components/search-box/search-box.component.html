@@ -1,0 +1,26 @@
+
+<h5>Buscar: </h5>
+<input type="text"
+class="form-control"
+placeholder="Buscar gifs"
+(keyup.enter)="muestraInputConsola()"
+#txtTagInput
+>
+
+<!-- Sin view child -->
+<!-- <h5>Buscar: </h5>
+<input type="text"
+class="form-control"
+placeholder="Buscar gifs"
+(keyup.enter)="muestraInputConsola(txtTagInput.value)"
+#txtTagInput
+> -->
+
+<!-- Con ngModel y forms angular -->
+<!-- <input type="text"
+class="form-control"
+placeholder="Buscar gifs"
+(keyup.enter)="muestraInputConsola(input)"
+[(ngModel)]="input"
+name="input"
+> -->

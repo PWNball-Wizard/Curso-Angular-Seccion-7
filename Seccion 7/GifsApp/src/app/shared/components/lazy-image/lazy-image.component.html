@@ -1,0 +1,4 @@
+<div class="d-flex justify-content-center">
+    <img src="{{url}}" alt="{{alt}}" class="card-img-top animate__animated animate__bound" (load)="onLoad()" [ngStyle]="{display: loading ? '': 'none'}">
+    <img src="../../../../assets/loader.svg" alt="" height="35" width="35" class="mt-3" *ngIf="!loading">
+</div>
